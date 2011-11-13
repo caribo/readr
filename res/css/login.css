@@ -1,0 +1,63 @@
+body{
+background-repeat:repeat-y;
+font-family:Tahoma;
+background-color:#B3BF67;
+}
+
+#container
+{
+width: 300px;
+margin: 0px auto;
+position:relative;
+color: #333;
+margin-top:200px;
+}
+
+.logo{
+text-shadow: 1px 1px 1px black, 1px 1px 1px black; 
+color: white; 
+font-size:50px;
+top:-100px;
+}
+
+.login_error{
+color:white;
+font-size:13px;
+position:relative;
+top:20px;	
+}
+
+#header{
+padding-bottom:10px;
+padding-top:10px;
+width:300px;
+position:absolute;
+top:-120px;
+margin:0px auto;
+text-align:center;
+}
+
+#form{
+width:300px;
+height:220px;
+background-color:#333;
+text-align:center;
+}
+
+#form input{
+width:230px;
+border:0px none;
+height:30px;
+padding-left:10px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+clear:both;
+margin-bottom:10px;
+}
+
+.submit{
+background-color: #666;
+color:white;
+width:230px;
+}
+
