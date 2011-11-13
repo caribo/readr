@@ -1,7 +1,7 @@
 <?php
 
 function doQuery($query, $insertid = false) {
-	 $con = mysql_connect("localhost","","");
+	 $con = mysql_connect("localhost","readr","readr1337");
 	 if (!$con) {
 	 	die("Could not connect: " . mysql_error());
 	 }

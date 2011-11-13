@@ -39,6 +39,7 @@
 </div>
 <div id="mainRight">
 	<?php if ($user->getRole() > 0) { ?>
+		<p class="heading noMarginTop">Click <a href="index.php?action=grades&id=<?php echo $assignment->getID(); ?>">here</a> to grade this assignment.</p>
 		<p class="heading noMarginTop">Add Files To Assignment</p>
 		<form name="addFileForm" action="endpoints/newassignmentfile.php" method="post" enctype="multipart/form-data">
 			<input type="file" name="upload[]" id="addFileToAss" multiple>
