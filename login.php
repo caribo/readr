@@ -76,8 +76,8 @@ require_once("objects/main.php");
 <form action="endpoints/login.php" method="post">
 <input type="text" name="username" class="default" title="Username" style="margin-left:0;" /><br />
 <div>
-        <input type="text" name="password" id="password-clear" class="default" style="display: none; margin-left: 6px;" value="Password">
-        <input type="password" id="password-password" class="default" style="" title=""><br><br>
+        <input type="text" id="password-clear" class="default" style="display: none; margin-left: 6px;" value="Password">
+        <input type="password" name="password" id="password-password" class="default" style="" title=""><br><br>
 </div>
 <input type="submit" class="submit" value="Login" />
 </form>
