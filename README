@@ -1,0 +1,5 @@
+This was written as part of the DevXS development marathon in November 2011.
+
+It was written in about 12 hours non-stop, and as such, probably contains lots of bugs and oversights.
+
+I don't recommend you use this on a public accessible or production system. Patches to improve this situation are welcome, but I won't be maintaining this or improving it further.
